@@ -1,10 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-void assignment03(void);
-double calcPositionEnergy(int weight, int height);
-
-
 double calcPositionEnergy(int weight, int height)
 {
 	double energy;
