@@ -15,7 +15,8 @@ void Area_perimeter(void) {
     scanf("%d", &side);
 
     printf("정사각형의 넓이: %d\n", side * side);
-    printf("정사각형의 둘레: %d\n", 4 * side);
+    printf("정사각형의 둘레: %d\n", 4 * side) ;
+    return;
 }
 
 int main() {

@@ -1,18 +1,18 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-void assignment03(void);
-double calcPositionEnergy(int weight, int height);
+void Assignment03(void);
+double CalcPositionEnergy(int weight, int height);
 
 
-double calcPositionEnergy(int weight, int height)
+double CalcPositionEnergy(int weight, int height)
 {
 	double energy;
 	energy = 9.8 * weight * height;
 	return energy;
 }
 
-void assignment03(void)
+void Assignment03(void)
 {
 	int kg, m;
 	double energy;
@@ -24,7 +24,7 @@ void assignment03(void)
 	printf("높이(m)?");
 	scanf("%d", &m);
 
-	energy = calcPositionEnergy(kg, m);
+	energy = CalcPositionEnergy(kg, m);
 	printf("위치에너지: %6.1lf\n", energy);
 
 	return;
@@ -32,6 +32,6 @@ void assignment03(void)
 
 int main()
 {
-	assignment03();
+	Assignment03();
 	return 0;
 }
